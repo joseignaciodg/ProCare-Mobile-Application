@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edit_something"><u>Edit</u></string>
+    <string name="error_del_pet"><u>Error while deleting pet</u></string>
+    <string name="error_edit_pet"><u>Error while editting pet</u></string>
+    <string name="error_save_pet"><u>Error while saving pet</u></string>
+    <string name="fill_please"><u>Fill all the fields</u></string>
+    <string name="log_please"><u>Log in to see your pets</u></string>
+    <string name="del_pet"><u>Pet deleted</u></string>
+    <string name="edit_pet"><u>Pet modified</u></string>
+    <string name="save_pet"><u>Pet saved</u></string>
+    <string name="reg_strate"><u>Register</u></string>
+    <string name="new_task_button">Add task</string>
+    <string name="material_calendar_negative_button">Cancel</string>
+    <string name="cambiar_contrase_a">Change password</string>
+    <string name="tasks_soon_header">Coming soon</string>
+    <string name="settings_title">Configuration:</string>
+    <string name="modo_oscuro">Dark mode</string>
+    <string name="show_own_events">Show just own events</string>
+    <string name="new_task_date_hint">Date</string>
+    <string name="show_task_date">Date:</string>
+    <string name="remove_task_button">Delete</string>
+    <string name="new_task_desc_hint">Description (optional)</string>
+    <string name="show_task_desc">Description:</string>
+    <string name="done_task_button">Done</string>
+    <string name="activar_notificaciones">Enable notifications</string>
+    <string name="material_calendar_friday">F</string>
+    <string name="show_task_frequency">Frequency:</string>
+    <string name="show_task_time">Hour:</string>
+    <string name="show_task_status">State:</string>
+    <string name="cerrar_sesi_n">Log out</string>
+    <string name="material_calendar_monday">M</string>
+    <string name="edit_task_button">Modify</string>
+    <string name="toolbar_label_new_task">New task</string>
+    <string name="dialog_no">No</string>
+    <string name="undone_task_button">Not done</string>
+    <string name="show_task_pet">Pet:</string>
+    <string name="toast_fill_fields">Please, fill all fields</string>
+    <string name="material_calendar_saturday">S</string>
+    <string name="seleccionar_idioma">Select language:</string>
+    <string name="remove_task_dialog">Are you sure you want to delete this task?</string>
+    <string name="material_calendar_sunday">Su</string>
+    <string name="material_calendar_tuesday">T</string>
+    <string name="toolbar_label_show_task">Task</string>
+    <string name="show_task_name">Task:</string>
+    <string name="toast_task_removed">"Task deleted  correctly "</string>
+    <string name="toast_task_edited">Task modified correctly</string>
+    <string name="new_task_name_hint">Task name</string>
+    <string name="toast_task_saved">Task saved</string>
+    <string name="material_calendar_thursday">Th</string>
+    <string name="toast_error">There has been an error</string>
+    <string name="material_calendar_today_button">Today</string>
+    <string name="tasks_today_header">Today</string>
+    <string name="tasks_tomorrow_header">Tomorrow</string>
+    <string name="material_calendar_wednesday">W</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="delete_something"><u>Delete</u></string>
+    <string name="add_pet"><u>Add pet</u></string>
+    <string name="remove_pet_dialog">Are you sure you want to delete this pet?</string>
+
+    <array name="material_calendar_months_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </array>
+    <string name="password_activity_title">Change password</string>
+    <string name="old_password_hint">Old password</string>
+    <string name="new_password_hint">New password</string>
+    <string name="repeat_new_password_hint">Repeat new password</string>
+    <string name="password_confirm_button">Confirm</string>
+    <string name="password_fill_field">Please, fill all the fields</string>
+    <string name="password_incorrect_password">Wrong old password.</string>
+    <string name="password_no_match">The two new passwords don\'t match.</string>
+    <string name="password_change_successful">You\'re password has been changed.</string>
+    <string name="calendar_tasks">Tasks</string>
+    <string name="iniciar_sesion_button">Log in</string>
+    <string name="aun_no_tienes_cuenta">Haven\'t you got an account?</string>
+
+    <array name="task_frequency_array">
+        <item>Today</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Yearly</item>
+    </array>
+
+    <string-array name="Pets_animals">
+        <item>Dog</item>
+        <item>Cat</item>
+        <item>Bird</item>
+        <item>Fish</item>
+        <item>Turtle</item>
+        <item>Horse</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="anadir_mascota">Add Pet</string>
+    <string name="nombre_mascota">Enter pet name</string>
+    <string name="modificar_nueva_tarea">Modify</string>
+    <string name="aceptar">Save</string>
+    <string name="editar_boton">Edit</string>
+    <string name="eliminar_boton">Delete</string>
+    <string name="greetings">Hello,</string>
+    <string name="llamar_a_nurgencias">Call &#10;emergency</string>
+    <string name="localizar_ncl_nicas">Look for &#10;clinics</string>
+    <string name="books_activity_title">Search Books</string>
+    <string name="search_books_button">Search &#10;Books</string>
+    <string name="book_query_hint">Keywords</string>
+    <string name="book_search_button">Search Books</string>
+    <string name="noPets">Cannot add a new task without any pet.</string>
+    <string name="cuidado_de_mascotas">Animal caring</string>
+    <string name="dale_el_mejor_cuidado_a_tu_mascota_con_nuestros_libros">Take the better care of your pet using our books:</string>
+    <string name="user_used">That username is already taken.</string>
+    <string name="not_same_passwords">Passwords do not match.</string>
+    <string name="fill_all_fields">Please fill in all fields.</string>
+    <string name="username_password_invalid">Invalid username or password.</string>
+    <string name="fill_field">Please fill in the field.</string>
+    <string name="changed_name">Your name has been successfully changed.</string>
+    <string name="show_pets_login">Log in to show your pets</string>
+    <string name="add_event_floating_button">Add Event</string>
+    <string name="add_event_name">Event Name</string>
+    <string name="add_event_description">Event Description (optional)</string>
+    <string name="add_event_button">Add</string>
+    <string name="add_event_address">Address</string>
+    <string name="add_event_added_by">Creted by:</string>
+    <string name="mapa">Events Map</string>
+    <string name="no_description" >No description</string>
+    <string name="seach_clinics">veterinary+clinic</string>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <include
+        android:id="@+id/layout_top_bar"
+        layout="@layout/top_bar"
+        tools:layout_editor_absoluteX="-30dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <include
+        android:id="@+id/include3"
+        layout="@layout/toolbar"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/toolbar"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgPet"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_top_bar"
+        app:shapeAppearanceOverlay="@style/RoundedSquare"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/NamePetView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgPet"
+        app:layout_constraintStart_toEndOf="@+id/imgPet"
+        app:layout_constraintTop_toTopOf="@+id/imgPet"
+        tools:text="Teddy" />
+
+    <LinearLayout
+        android:id="@+id/button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/include3">
+
+        <Button
+            android:id="@+id/buttonEditPet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/editar_boton"
+            style="@style/button"
+            android:layout_weight="1"
+            android:layout_margin="8dp" />
+
+        <Button
+            android:id="@+id/buttonDeletePet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/eliminar_boton"
+            style="@style/button"
+            android:layout_weight="1"
+            android:layout_margin="8dp"/>
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/taskListPetView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgPet" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
